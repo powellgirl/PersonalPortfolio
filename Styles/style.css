@@ -4,9 +4,33 @@ justify-content: space-evenly;
 font-size: 60px;
 }
 
-nav {
+h2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    font-size: 35px;
+}
+
+ul {
+   list-style-type: none;
+   margin: 10;
+   padding: 0;
+   display: flex;
+   justify-content: flex-end;
+   background-color: aquamarine;
+
+}
+
+li {
+   float: right;
+   font-size: 20px;
+
+}
+
+li a {
+    display:block;
+    text-align: right;
+    padding: 10px 40px;
+    text-decoration: black;
 }
 
 body {
