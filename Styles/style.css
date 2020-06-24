@@ -6,4 +6,9 @@ font-size: 60px;
 
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: lightgrey;
+}
