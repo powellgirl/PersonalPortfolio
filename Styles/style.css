@@ -1,16 +1,29 @@
+#welcome-section {
+    height: 100vh;
+    overflow: auto;
+}
+
 h1 {
 display: flex;
 justify-content: space-evenly;
 font-size: 60px;
+font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
     display: flex;
     justify-content: space-evenly;
     font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
+    font-family: 'MuseoModerno', cursive;
    list-style-type: none;
    margin: 10;
    padding: 0;
@@ -23,7 +36,7 @@ ul {
 li {
    float: right;
    font-size: 20px;
-
+   font-family: 'MuseoModerno', cursive;
 }
 
 li a {
@@ -35,4 +48,11 @@ li a {
 
 body {
     background-color: lightgrey;
+}
+
+@media (min-width: 600px) {
+    h3 (
+        font-size: 15px;
+    )
+
 }
