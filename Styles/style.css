@@ -3,23 +3,42 @@
     overflow: auto;
 }
 
+#projects {
+    background-color: darkgray;
+}
+
+#profile-link {
+    background-color: darkgray;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-size: 25px;
+}
 h1 {
 display: flex;
 justify-content: space-evenly;
 font-size: 60px;
 font-family: 'Montserrat', sans-serif;
+color: #222222;
 }
 
 h2 {
     display: flex;
     justify-content: space-evenly;
     font-size: 35px;
+    font-family: 'Pacifico', cursive;
+color: darkslateblue;
+}
+
+h3 {color: #222222;
+    font-size: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+nav
+{font-family: 'Pacifico', cursive;
+   position: fixed;
+   top: 0px;
+   width: 100%;
 }
 
 ul {
@@ -50,9 +69,21 @@ body {
     background-color: lightgrey;
 }
 
-@media (min-width: 600px) {
-    h3 (
-        font-size: 15px;
-    )
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    background-color: aquamarine;
+}
 
+@media screen {
+    body {
+        width: 75%;
+    }
+
+}
+
+@media print {
+    body {
+        width: 100%;
+    }
 }
