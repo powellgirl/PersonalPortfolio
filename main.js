@@ -1,4 +1,5 @@
 import { people } from './people.js';
+import ( planets ) from './planets.js';
 
 console.log(people)
 
