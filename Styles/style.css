@@ -88,6 +88,25 @@ ul {
 
 }
 
+
+
+#planets {
+    margin: 10;
+    padding: 5;
+    display: flex;
+    justify-content: center;
+    max-width: 1250px;
+
+}
+
+
+#characters {
+    margin: 10;
+    padding: 5;
+    display: flex;
+    justify-content: center;
+    max-width: 1250px;
+}
 li {
    float: right;
    font-size: 20px;
