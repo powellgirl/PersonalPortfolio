@@ -25,6 +25,10 @@ people.map(character => {console.log(character.name)
 
     append(li,span);
     append(ul,li);
+
+    document.getElementById("characters").style.color = "black";
+    document.getElementById("characters").style.backgroundColor = "white";
+    document.getElementById("characters").style.overflow = "scroll";
 })
 
 const ol = document.getElementById('planets')
@@ -37,6 +41,11 @@ planets.map(planet => {console.log(planet.name)
 
     append(li,span);
     append(ol,li);
+
+    document.getElementById("planets").style.color = "green";
+    document.getElementById("planets").style.backgroundColor = "white";
+    document.getElementById("planets").style.overflow = "scroll";
+   
 })
 
 
