@@ -1,23 +1,49 @@
 import { people } from './people.js';
-import ( planets ) from './planets.js';
+import { planets } from './planets.js';
 
-console.log(people)
-
-people.map(people => {console.log(people)
-})
+console.log(people);
+console.log(planets);
 
 function append (parent, el) {
     return parent.appendChild(el);
 }
 
-const names = document.getElementById('names');
+function createNode(element) {
+    return document.createElement(element);
+}
 
-let li = createNode('li'),
-img = createNode('img'),
-span = createNode('span'),
+let characters;
+let planet;
 
-img.src= people.name;
-span.innerHTML = `${people.name} ${people.homeworld}`
-append(li, img);
-append(li, span);
-append(ul, li);
+const ul = document.getElementById('characters')
+
+people.map(character => {console.log(character.name)
+    let li = createNode('li'),
+    span = createNode('span');
+
+    span.innerHTML = `Character Name & Eye Color: ${character.name} - ${character.eye_color}`;
+
+    append(li,span);
+    append(ul,li);
+})
+
+const ol = document.getElementById('planets')
+
+planets.map(planet => {console.log(planet.name)
+    let li = createNode('li'),
+    span = createNode('span');
+
+    span.innerHTML = `Planet Description: ${planet.name}: ${planet.terrain}`;
+
+    append(li,span);
+    append(ol,li);
+})
+
+
+
+
+
+
+
+
+
